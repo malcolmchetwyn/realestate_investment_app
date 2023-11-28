@@ -97,7 +97,7 @@ To run the script, execute the following command:
 
 ```bash
 python get_from_domain.py
-
+```
 
 ## Data Files
 
