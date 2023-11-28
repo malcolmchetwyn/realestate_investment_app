@@ -28,7 +28,8 @@ This section details the functionalities of the `process_properties.py` script.
 #### `calculate_additional_metrics_and_score(results)`
 - Computes additional metrics and an investment score based on analysis results.
 
-#### `advanced_investment_analysis(results, risk_factor, exit_strategy_score, local_market_score)`
+```python 
+advanced_investment_analysis(results, risk_factor, exit_strategy_score, local_market_score)
 - Enhances the investment analysis by incorporating additional factors like risk and market scores.
 
 ### Using the real_estate_investment_analysis function
