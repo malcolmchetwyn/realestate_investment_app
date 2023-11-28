@@ -1,0 +1,19 @@
+200000|209/452 st kilda road melbourne vic 3004|https://www.domain.com.au/209-452-st-kilda-road-melbourne-vic-3004-2018826820|1|1|Unit|MELBOURNE
+365000|28 flemming crescent tamworth nsw 2340|https://www.domain.com.au/28-flemming-crescent-tamworth-nsw-2340-2018879427?topspot=1|3|2|House|TAMWORTH
+499000|5 banjos circuit tamworth nsw 2340|https://www.domain.com.au/5-banjos-circuit-tamworth-nsw-2340-2018827628?topspot=1|3|1|House|TAMWORTH
+459000|43 arinya street tamworth nsw 2340|https://www.domain.com.au/43-arinya-street-tamworth-nsw-2340-2018890637?topspot=1|3|1|House|TAMWORTH
+365000|28 flemming crescent tamworth nsw 2340|https://www.domain.com.au/28-flemming-crescent-tamworth-nsw-2340-2018879427?topspot=1|3|2|House|TAMWORTH
+499000|5 banjos circuit tamworth nsw 2340|https://www.domain.com.au/5-banjos-circuit-tamworth-nsw-2340-2018827628?topspot=1|3|1|House|TAMWORTH
+459000|43 arinya street tamworth nsw 2340|https://www.domain.com.au/43-arinya-street-tamworth-nsw-2340-2018890637?topspot=1|3|1|House|TAMWORTH
+365000|28 flemming crescent tamworth nsw 2340|https://www.domain.com.au/28-flemming-crescent-tamworth-nsw-2340-2018879427?topspot=1|3|2|House|TAMWORTH
+595|3/49-51 corella drive legana tas 7277|https://www.domain.com.au/3-49-51-corella-drive-legana-tas-7277-2018930827|3|1|Unit|LEGANA
+539000|44/5 mckenzie road mango hill qld 4509|https://www.domain.com.au/44-5-mckenzie-road-mango-hill-qld-4509-2018930821|3|2|Unit|MANGO HILL
+300000|7/267 fulham street cloverdale wa 6105|https://www.domain.com.au/7-267-fulham-street-cloverdale-wa-6105-2018930817|1|1|Unit|CLOVERDALE
+45|8/7a reginald avenue belmore nsw 2192|https://www.domain.com.au/8-7a-reginald-avenue-belmore-nsw-2192-2018930723|2|1|Unit|BELMORE
+385000|42/11-15 port douglas road port douglas qld 4877|https://www.domain.com.au/42-11-15-port-douglas-road-port-douglas-qld-4877-2018930709|3|2|Unit|PORT DOUGLAS
+500|511/15 roydhouse street subiaco wa 6008|https://www.domain.com.au/511-15-roydhouse-street-subiaco-wa-6008-2018930703|2|1|Unit|SUBIACO
+20|63b beaconsfield avenue midvale wa 6056|https://www.domain.com.au/63b-beaconsfield-avenue-midvale-wa-6056-2018930656|3|2|House|MIDVALE
+520000|5 coorilla street tallangatta vic 3700|https://www.domain.com.au/5-coorilla-street-tallangatta-vic-3700-2018930621|3|2|House|TALLANGATTA
+465000|6120/9 gunnamatta avenue kingscliff nsw 2487|https://www.domain.com.au/6120-9-gunnamatta-avenue-kingscliff-nsw-2487-2018930518|1|1|Unit|KINGSCLIFF
+550000|25 spotted gum boulevard wauchope nsw 2446|https://www.domain.com.au/25-spotted-gum-boulevard-wauchope-nsw-2446-2018923057|2|2|Unit|WAUCHOPE
+380000|1/14 waterson way airlie beach qld 4802|https://www.domain.com.au/1-14-waterson-way-airlie-beach-qld-4802-2018924260|1|1|Unit|AIRLIE BEACH

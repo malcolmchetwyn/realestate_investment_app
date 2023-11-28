@@ -1,0 +1,7 @@
+selenium
+bs4
+selenium_stealth
+pandas
+matplotlib
+webdriver_manager
+numpy_financial
