@@ -19,3 +19,43 @@
 
 The script outputs various investment metrics, including appreciation rate, purchase price, rental value, break-even year, ROI, and IRR. Example console output for a property might look like:
 
+
+## investment_finder.py
+
+The `investment_finder.py` script is a comprehensive tool designed for analyzing real estate investments. It includes functions for calculating various financial metrics essential for assessing the profitability and viability of real estate investments.
+
+### Features
+
+- **Stamp Duty Calculation:** Calculates stamp duty for properties, currently configured for NSW jurisdiction. 
+- **Real Estate Investment Analysis:** Conducts a detailed investment analysis considering factors like purchase price, renovation cost, loan amount, and others.
+- **Additional Metrics Calculation:** Calculates additional investment metrics such as Debt Service Coverage Ratio (DSCR), Gross Rent Multiplier (GRM), and Break-Even Point (BEP).
+- **Advanced Investment Analysis:** Further refines the investment analysis by incorporating risk factors, exit strategy score, and local market score.
+
+### Usage
+
+1. **Setup:** Ensure Python environment is set up with necessary libraries including `pandas`, `numpy`, and `matplotlib`.
+2. **Data Input:** Input required parameters like purchase price, loan amount, rental income, etc., for investment analysis.
+3. **Executing Functions:** Use the script’s functions to calculate stamp duty, conduct basic and advanced investment analysis, and calculate additional investment metrics.
+4. **Output Review:** Review the output for each function to gain insights into the investment's potential, including ROI, cash-on-cash return, and investment score.
+
+### Example Usage
+
+```python
+# Example of basic investment analysis
+basic_investment_results = real_estate_investment_analysis(
+    purchase_price=500000,        # Purchase price of the property
+    renovation_cost=20000,        # Cost of renovations
+    loan_amount=400000,           # Loan amount
+    interest_rate=4.5,            # Interest rate of the loan
+    loan_term=25,                 # Term of the loan in years
+    rental_income=2500,           # Monthly rental income
+    sale_year=15,                 # Year of property sale
+    vacancy_rate=5,               # Vacancy rate percentage
+    operating_expenses=500,       # Monthly operating expenses
+    appreciation_rate=2,          # Annual property appreciation rate
+    location_score=2,             # Location desirability score
+    market_growth_rate=3          # Annual market growth rate
+)
+
+# Print investment results
+print("Investment Metrics and Score:", basic_investment_results)
