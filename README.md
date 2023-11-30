@@ -28,8 +28,9 @@ Activating the virtual environment will change your shell’s prompt to show the
 Once the virtual environment is activated, you can install the required dependencies.
 
 1. **Install Required Packages:**
+  ```
 pip install -r requirements.txt
-
+  ```
 
 This command will install all the Python packages listed in the `requirements.txt` file. These packages are necessary for the scripts to run properly.
 
