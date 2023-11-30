@@ -59,3 +59,41 @@ basic_investment_results = real_estate_investment_analysis(
 
 # Print investment results
 print("Investment Metrics and Score:", basic_investment_results)
+
+
+## properties_data.txt
+
+The `properties_data.txt` file serves as the data source for real estate properties in the scripts `process_properties.py` and `investment_finder.py`. It contains a list of properties with key details that are essential for investment analysis and decision-making.
+
+### File Format
+
+Each line in the file represents a single property listing with the following pipe-separated (`|`) values:
+
+1. **Price:** The price of the property in AUD.
+2. **Address:** The full address of the property.
+3. **URL:** A link to the property listing.
+4. **Room Count:** The number of rooms in the property.
+5. **Bathroom Count:** The number of bathrooms in the property.
+6. **Property Type:** The type of property (e.g., House, Unit).
+7. **Suburb:** The suburb where the property is located.
+
+### Example Entry
+
+365000|28 flemming crescent tamworth nsw 2340|https://www.domain.com.au/28-flemming-crescent-tamworth-nsw-2340-2018879427?topspot=1|3|2|House|TAMWORTH
+
+
+In this example:
+- The property price is 365,000 AUD.
+- Located at 28 Flemming Crescent, Tamworth, NSW 2340.
+- Contains 3 rooms and 2 bathrooms.
+- It’s a house located in the suburb of Tamworth.
+
+### Usage
+
+1. **Data Input for Scripts:** This file is read by `process_properties.py` and `investment_finder.py` scripts. Ensure it is in the same directory as these scripts or update the script to point to its location.
+2. **Updating Data:** To add new properties, append new lines following the same format. Ensure accuracy in the details for precise investment analysis.
+
+### Note
+
+- The URL provided in each listing is essential for further data scraping or detailed analysis by the scripts.
+- Ensure the data format consistency for the scripts to process the information correctly.
