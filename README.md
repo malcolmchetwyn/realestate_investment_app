@@ -1,3 +1,56 @@
+
+## Installation and Setup
+
+Follow these steps to set up your Python environment for running the scripts included in this repository. These instructions assume that Python 3 is already installed on your system.
+
+### Creating a Virtual Environment
+
+A virtual environment is a self-contained directory that contains a Python installation for a particular version of Python, plus a number of additional packages. Creating a virtual environment allows you to manage dependencies for different projects separately.
+
+1. **Create the Virtual Environment:**
+python3 -m venv .venv
+
+This command creates a new directory named `.venv` in your current directory, which will contain the Python interpreter and libraries.
+
+2. **Activate the Virtual Environment:**
+- On macOS and Linux:
+  ```
+  . .venv/bin/activate
+  ```
+- On Windows:
+  ```
+  .venv\Scripts\activate
+  ```
+Activating the virtual environment will change your shell’s prompt to show the name of the environment and modify the environment so that running `python` will get you that particular version and installation of Python.
+
+### Installing Dependencies
+
+Once the virtual environment is activated, you can install the required dependencies.
+
+1. **Install Required Packages:**
+pip install -r requirements.txt
+
+
+This command will install all the Python packages listed in the `requirements.txt` file. These packages are necessary for the scripts to run properly.
+
+### Deactivating the Virtual Environment
+
+After you finish working in the virtual environment, you can deactivate it by running:
+deactivate
+
+This command will revert your Python environment back to normal.
+
+### Note
+
+- Ensure you have the `requirements.txt` file in the same directory where you are running these commands.
+- If you encounter any issues during installation, make sure your Python and `pip` are up-to-date.
+
+
+
+
+
+
+
 ## process_properties.py
 
 `process_properties.py` is a Python script designed for analyzing and evaluating real estate investment opportunities. It integrates various functionalities to calculate investment metrics, such as ROI and IRR, and assesses the potential of real estate properties as profitable investments.
