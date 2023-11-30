@@ -1,3 +1,52 @@
+## Real Estate Investment Analysis Tool
+
+This tool is designed to analyze real estate investments by calculating key financial metrics and assessing property details. It consists of several functions, each serving a specific purpose in the investment analysis process.
+
+### Overview
+
+- **Imported Modules:** The tool imports various modules like `re` for regular expressions, `numpy` and `numpy_financial` for numerical calculations, and custom modules for specific functionalities like `real_estate_investment_analysis`.
+- **Global Variable:** `investment_amount_ability` is set, indicating the maximum investment ability (e.g., $50,000).
+
+### Key Functions
+
+#### `extract_median_asking_rent(data)`
+Extracts the median asking rent from a given data dictionary. It searches for a key containing "MEDIAN ASKING RENT" and extracts the numerical value.
+
+#### `write_investment_details_to_file(address, url, investment_score, file_path="good_investments.txt")`
+Writes the details of an investment property to a file. It records the address, URL, and investment score of the property.
+
+#### `calculate_break_even(cash_flows)`
+Calculates the break-even year based on yearly cash flows. It uses cumulative cash flow calculations to find the first year where the investment breaks even.
+
+#### `calculate_roi_and_irr(total_investment, cash_flows, sale_proceeds)`
+Calculates the Return on Investment (ROI) and Internal Rate of Return (IRR) for an investment. It uses total investment, yearly cash flows, and sale proceeds for these calculations.
+
+#### `read_and_print_properties(filename)`
+Reads property data from a file, processes each property, and prints detailed analysis. This includes fetching rental values, appreciation rates, and performing a comprehensive investment analysis.
+
+#### `calculate_stamp_duty(property_value)`
+Calculates the stamp duty based on property value, specifically for NSW jurisdiction. This function uses a tier-based calculation method.
+
+#### `real_estate_investment_analysis(...)`
+Performs an in-depth investment analysis. It takes into account various factors like purchase price, loan amount, rental income, etc., and calculates essential investment metrics.
+
+#### `calculate_additional_metrics_and_score(results)`
+Processes the results from the basic analysis and calculates additional investment metrics like Debt Service Coverage Ratio (DSCR), Gross Rent Multiplier (GRM), and Break-Even Point (BEP).
+
+#### `advanced_investment_analysis(results, risk_factor, exit_strategy_score, local_market_score)`
+Enhances the basic investment score by considering additional factors such as risk and local market conditions.
+
+### Usage
+
+1. **Property File Reading:** The script reads from a property data file, extracting key information like price, address, and other details.
+2. **Analysis Execution:** For each property, it performs a series of analyses to evaluate its investment potential.
+3. **Output:** The results, including ROI, IRR, and investment scores, are printed out for each property. Properties with a high investment score are written to a separate file.
+
+### Note
+
+- The tool is currently configured for NSW stamp duty calculations and needs adjustments for other jurisdictions.
+- The investment amount ability is a configurable global variable that can be adjusted based on user preference.
+
 
 ## Installation and Setup
 
