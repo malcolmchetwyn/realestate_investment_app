@@ -20,6 +20,27 @@
 The script outputs various investment metrics, including appreciation rate, purchase price, rental value, break-even year, ROI, and IRR. Example console output for a property might look like:
 
 
+## get_from_domain.py
+
+`get_from_domain.py` is a web scraping script specifically tailored to extract real estate listings from the Domain website. It leverages tools like Selenium and BeautifulSoup to navigate the website, parse data, and extract detailed information about properties listed for sale.
+
+### Features
+
+- **Dynamic Web Scraping:** Utilizes Selenium to interact with the Domain website dynamically, accommodating for JavaScript-rendered content.
+- **Data Parsing:** Employs BeautifulSoup for extracting and parsing relevant data from the web pages.
+- **Customizable Search Parameters:** Supports defining custom search parameters like price range, property type, and others.
+- **User-Agent Randomization:** Randomizes user-agent strings to mimic different browsers, helping to reduce the risk of being detected as a bot.
+- **Data Extraction:** Gathers comprehensive details about each property, including price, address, URL, number of bedrooms and bathrooms, property type, and suburb.
+
+### How to Use
+
+1. **Setup:** Ensure Python environment is set up with Selenium, BeautifulSoup, and other required dependencies.
+2. **Driver Configuration:** Set up the Selenium WebDriver to match your system and browser configuration.
+3. **Running the Script:** Execute the script. It will start scraping data from Domain based on the specified search parameters.
+4. **Data Output:** The script writes the extracted property data into `properties_data.txt`, appending new listings to the file.
+
+
+
 ## investment_finder.py
 
 The `investment_finder.py` script is a comprehensive tool designed for analyzing real estate investments. It includes functions for calculating various financial metrics essential for assessing the profitability and viability of real estate investments.
@@ -59,39 +80,3 @@ basic_investment_results = real_estate_investment_analysis(
 
 # Print investment results
 print("Investment Metrics and Score:", basic_investment_results)
-
-
-## properties_data.txt
-
-### File Format
-
-Each line in the file represents a single property listing with the following pipe-separated (`|`) values:
-
-1. **Price:** The price of the property in AUD.
-2. **Address:** The full address of the property.
-3. **URL:** A link to the property listing.
-4. **Room Count:** The number of rooms in the property.
-5. **Bathroom Count:** The number of bathrooms in the property.
-6. **Property Type:** The type of property (e.g., House, Unit).
-7. **Suburb:** The suburb where the property is located.
-
-### Example Entry
-
-365000|28 flemming crescent tamworth nsw 2340|https://www.domain.com.au/28-flemming-crescent-tamworth-nsw-2340-2018879427?topspot=1|3|2|House|TAMWORTH
-
-
-In this example:
-- The property price is 365,000 AUD.
-- Located at 28 Flemming Crescent, Tamworth, NSW 2340.
-- Contains 3 rooms and 2 bathrooms.
-- It’s a house located in the suburb of Tamworth.
-
-### Usage
-
-1. **Data Input for Scripts:** This file is read by `process_properties.py` and `investment_finder.py` scripts. Ensure it is in the same directory as these scripts or update the script to point to its location.
-2. **Updating Data:** To add new properties, append new lines following the same format. Ensure accuracy in the details for precise investment analysis.
-
-### Note
-
-- The URL provided in each listing is essential for further data scraping or detailed analysis by the scripts.
-- Ensure the data format consistency for the scripts to process the information correctly.
