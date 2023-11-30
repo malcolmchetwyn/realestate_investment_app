@@ -2,6 +2,11 @@
 
 This tool is designed to analyze real estate investments by calculating key financial metrics and assessing property details. It consists of several functions, each serving a specific purpose in the investment analysis process.
 
+### Disclaimer for Web Scraping
+
+This tool includes functionality for web scraping from real estate websites. It is important to note that this feature is intended strictly for **educational purposes only**. Users are responsible for adhering to the terms of service of the websites they scrape, and this tool should not be used in a way that violates those terms or any applicable laws. Always obtain permission from website owners before scraping their sites.
+
+
 ### Overview
 
 - **Imported Modules:** The tool imports various modules like `re` for regular expressions, `numpy` and `numpy_financial` for numerical calculations, and custom modules for specific functionalities like `real_estate_investment_analysis`.
