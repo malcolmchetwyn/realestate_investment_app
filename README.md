@@ -63,8 +63,6 @@ print("Investment Metrics and Score:", basic_investment_results)
 
 ## properties_data.txt
 
-The `properties_data.txt` file serves as the data source for real estate properties in the scripts `process_properties.py` and `investment_finder.py`. It contains a list of properties with key details that are essential for investment analysis and decision-making.
-
 ### File Format
 
 Each line in the file represents a single property listing with the following pipe-separated (`|`) values:
