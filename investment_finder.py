@@ -628,10 +628,13 @@ investment_scenarios = {
         "market_growth_rate": 4.5
     }
 }
-'''
 
 # Processing each investment scenario
-#for name, params in investment_scenarios.items():
-#    results = real_estate_investment_analysis(**params)
-#    print_investment_results(name, results)
+for name, params in investment_scenarios.items():
+    results = real_estate_investment_analysis(**params)
+    print_investment_results(name, results)
+
+'''
+
+
 
