@@ -43,7 +43,7 @@ Enhances the basic investment score by considering additional factors such as ri
 
 ### Usage
 
-1. **Property File Reading:** The script reads from a property data file, extracting key information like price, address, and other details.
+1. **Populate the real estat data:** The script reads from a property data file, extracting key information like price, address, and other details.
 2. **Analysis Execution:** For each property, it performs a series of analyses to evaluate its investment potential.
 3. **Output:** The results, including ROI, IRR, and investment scores, are printed out for each property. Properties with a high investment score are written to a separate file.
 
