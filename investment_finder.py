@@ -158,13 +158,19 @@ good_investment_results = real_estate_investment_analysis(
     market_growth_rate=2          # Market growth rate
 )
 
+
+################################################################################################
+#
+#
+#   TEST DATA - YOU CAN USE THIS TO TEST THE MODEL
+#
+#
+#
 # Calculate additional metrics and score
 good_additional_metrics_and_score = calculate_additional_metrics_and_score(good_investment_results)
 print("Investment Metrics and Score:", good_additional_metrics_and_score)
 print("Total Investment Required (Including Loan):", good_investment_results["Total Investment"])
 print("Capital Investment Required (Out-of-Pocket):", good_investment_results["Capital Investment Required"])
-'''
-
 
 
 # Define your real_estate_investment_analysis and calculate_additional_metrics_and_score functions here
@@ -176,6 +182,9 @@ def print_investment_results(name, results):
     print("Capital Investment Required (Out-of-Pocket):", results["Capital Investment Required"])
     print()
 
+
+
+    
 # Investment scenarios with their respective parameters
 investment_scenarios = {
     "Terrible Investment": {
@@ -619,7 +628,7 @@ investment_scenarios = {
         "market_growth_rate": 4.5
     }
 }
-
+'''
 
 # Processing each investment scenario
 #for name, params in investment_scenarios.items():
